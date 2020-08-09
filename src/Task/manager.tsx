@@ -1,11 +1,19 @@
 import User from "../User";
 
 class TaskManager {
-    private _title: string = "";
-    private _position: number = ;
+    private _title: string;
+    private _position: number;
     private _description: string;
     private _createdBy: User;
     private _assignedTo: User;
+
+    constructor(title: string, position: number, description: string, createdBy: User, assignedTo: User) {
+        this._title = title;
+        this._position = position;
+        this._description = description;
+        this._createdBy = createdBy;
+        this._assignedTo = assignedTo;
+    }
 
     get position(): number {
         return this._position;

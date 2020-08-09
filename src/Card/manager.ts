@@ -1,18 +1,20 @@
-import Task from ".";
+import Task from "../Task/manager";
 import User from "../User";
 
 class CardManager {
     private tasks: Task[];
-    private user: User;
+    private readonly user: User;
 
     constructor(tasks: Task[], user: User){
         this.tasks = tasks;
         this.user = user;
     }
 
-    addTask(title: string, description?:string) {
-        let task = Task()
-        return title;
+    addTask(title: string, description:string) {
+        // Sort how the position is initialised.
+        let task = new Task(title, this.tasks.length, description, this.user, this.user);
+        this.tasks.push(task);
+        return task;
     }
 
 }
