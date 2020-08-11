@@ -1,6 +1,6 @@
 import User from "../User";
 
-class TaskManager {
+class TaskModel {
     private _title: string;
     private _position: number;
     private _description: string;
@@ -57,4 +57,4 @@ class TaskManager {
 
 }
 
-export default TaskManager;
+export default TaskModel;

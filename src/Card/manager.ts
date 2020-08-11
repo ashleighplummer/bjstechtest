@@ -1,4 +1,4 @@
-import Task from "../Task/manager";
+import Task from "../Task/model";
 import User from "../User";
 
 class CardManager {
@@ -19,6 +19,10 @@ class CardManager {
     }
 
     removeTask(task: Task){
+
+    }
+
+    getTasks(){
 
     }
 
