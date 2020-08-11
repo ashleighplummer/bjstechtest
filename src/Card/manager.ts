@@ -14,7 +14,12 @@ class CardManager {
         // Sort how the position is initialised.
         let task = new Task(title, this.tasks.length, description, this.user, this.user);
         this.tasks.push(task);
+        window.localStorage.setItem("Tasks", JSON.stringify(this.tasks));
         return task;
+    }
+
+    removeTask(task: Task){
+
     }
 
 }
