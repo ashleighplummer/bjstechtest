@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47c1b650-54f6-4e02-92b4-0919cb4e98bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Card/model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task/taskForm.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/comments.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Card/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Card/manager.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card/manager.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task/manager.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task/manager.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task/model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task/model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task/taskForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task/taskForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +23,7 @@
       <list>
         <option value="Less File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -33,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Task" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -47,11 +55,12 @@
     <property name="ts.external.directory.path" value="C:\Users\ashle\WebstormProjects\bjstechtest2\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ashle\WebstormProjects\bjstechtest2\src\Task" />
+      <recent name="C:\Users\ashle\WebstormProjects\bjstechtest2\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ashle\WebstormProjects\bjstechtest2\src\Card" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ashle\WebstormProjects\bjstechtest2\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -79,18 +88,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596811513939</updated>
-      <workItem from="1596811515230" duration="9087000" />
+      <workItem from="1596811515230" duration="10345000" />
+      <workItem from="1597158414787" duration="3108000" />
+      <workItem from="1597213400781" duration="19800000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../sportseasy/pages/about/index.js" />
+      </list>
+    </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1155" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1596908526257">
+    <state x="-1155" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1597223233148">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1155" y="236" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596908526257" />
+    <state x="-1155" y="236" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597223233148" />
     <state x="594" y="298" key="EditFileWatcherDialog" timestamp="1596815540505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -99,9 +115,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596811831819" />
-    <state x="-1536" y="-17" width="1441" height="717" maximized="true" key="dock-window-1" timestamp="1596907559953">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="193" y="94" width="1442" height="718" key="dock-window-1" timestamp="1597232479312">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1536" y="-17" width="1441" height="717" maximized="true" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596907559953" />
+    <state x="193" y="94" width="1442" height="718" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597232479312" />
   </component>
 </project>

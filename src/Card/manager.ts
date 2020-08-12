@@ -1,29 +1,39 @@
-import Task from "../Task/model";
 import User from "../User";
+import CardModel from "./model";
 
 class CardManager {
-    private tasks: Task[];
+    private _cards: CardModel[];
     private readonly user: User;
 
-    constructor(tasks: Task[], user: User){
-        this.tasks = tasks;
+    constructor(user: User, cards: CardModel[] = []){
+        this._cards = cards;
         this.user = user;
     }
 
-    addTask(title: string, description:string) {
-        // Sort how the position is initialised.
-        let task = new Task(title, this.tasks.length, description, this.user, this.user);
-        this.tasks.push(task);
-        window.localStorage.setItem("Tasks", JSON.stringify(this.tasks));
-        return task;
-    }
-
-    removeTask(task: Task){
+    saveToLocalStorage() {
 
     }
 
-    getTasks(){
+    loadFromLocalStorage() {
 
+    }
+
+    newCard() {}
+
+    addCard(card: CardModel) {
+        this._cards.push(card);
+    }
+
+    removeCard(card: CardModel) {
+        this._cards.splice(card.position, 1);
+    }
+
+    get cards(): CardModel[] {
+        return this._cards;
+    }
+
+    set cards(value: CardModel[]) {
+        this._cards = value;
     }
 
 }

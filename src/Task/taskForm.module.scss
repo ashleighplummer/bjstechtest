@@ -1,0 +1,29 @@
+.container {
+  position: absolute;
+  display: flex;
+  width: 40vw;
+  height: 80vh;
+  background-color: #282c34;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  .taskForm {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input {
+    width: 200px;
+    height: 50px;
+  }
+
+  .submitButton {
+    width: 200px;
+    height: 50px;
+    border: #282c34;
+  }
+}

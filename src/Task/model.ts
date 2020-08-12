@@ -1,4 +1,5 @@
 import User from "../User";
+import Comment from "../User/comments";
 
 class TaskModel {
     private _title: string;
@@ -6,13 +7,15 @@ class TaskModel {
     private _description: string;
     private _createdBy: User;
     private _assignedTo: User;
+    private _comments: Comment[];
 
-    constructor(title: string, position: number, description: string, createdBy: User, assignedTo: User) {
+    constructor(title: string, position: number, createdBy: User, description: string = "", comments = []) {
         this._title = title;
         this._position = position;
         this._description = description;
         this._createdBy = createdBy;
-        this._assignedTo = assignedTo;
+        this._assignedTo = createdBy;
+        this._comments = comments;
     }
 
     get position(): number {
@@ -54,7 +57,13 @@ class TaskModel {
         this._title = value;
     }
 
+    get comments(): Comment[] {
+        return this._comments;
+    }
 
+    set comments(value: Comment[]) {
+        this._comments = value;
+    }
 }
 
 export default TaskModel;
